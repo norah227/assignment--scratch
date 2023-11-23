@@ -1,0 +1,447 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+display: flex;
+height: 100vh;
+
+}
+.container{
+flex: 1;
+}
+
+header , footer{
+display: block;
+margin: 0;
+padding: 0;
+height: 75px;
+
+}
+.header2{
+height: 100%;
+}
+header
+{
+    text-align: center;
+    background-color: rgb(184, 184, 184);
+}
+@media screen and (max-width:667px)  {
+    header {
+background-color:rgb(184, 184, 184);
+height: 35%;
+     }
+ }
+.logo{
+    width: 15%;
+    display: inline-block;
+}
+@media screen and (max-width:667px)  {
+    .logo{
+    text-align: center;
+    width: 40%;
+    
+     }
+ }
+.logo  h2{
+margin: 0;
+color: #fff;
+text-transform: uppercase;
+
+}
+@media screen and (max-width:667px)  {
+    .logo h2{
+        padding-top: 10px ;
+    text-align: center;
+     }
+ }
+
+ul{
+    display: inline-block;
+    width: 84%;
+    margin: 0;
+    padding: 0;
+}
+@media screen and (max-width:667px)  {
+    header ul li{
+    display: block;
+     }
+ }
+
+header ul li {
+    padding: 2% 0;
+    padding-left: 10%;
+     display: inline-block;
+ }
+
+ @media screen and (max-width:667px)  {
+    header ul li{
+    display: block;
+    padding: 5px;
+     }
+ }
+ header ul li a{
+     font-size: 1.20em;
+     text-decoration: none;
+     color: #fff;
+
+ }
+
+.main-page{
+
+    height: 90%;
+    background-color: rgb(220, 215, 221);
+background-image: url(https://img.zcool.cn/community/01d73c6128b4fc11013eaf703da8d1.jpg);
+background-size: 100%;
+background-repeat: no-repeat;
+
+position: relative;
+
+}
+
+
+@media screen and (max-width:667px)  {
+   .main-page{
+    height: 65%;
+    background-position: center;
+    }
+}
+.main-page h1 {
+    margin: 0;
+    position: absolute;
+    top: 35%;
+    left: 33%;
+    transform: translate(-50px);
+    font-size: 3em;
+    color:#717171;
+
+}
+@media screen and (max-width:667px)  {
+    .main-page h1{
+font-size: 1.2em;
+left: 35%;
+top: 25%;
+     }
+ }
+.main-page .bottom {
+   position: absolute;
+   top: 50%;
+   left: 47%;
+   transform: translate(-50px);
+   background-color: rgb(97, 143, 97);
+   color:#fff;
+   padding: 10px 60px;
+    text-decoration: none;
+border-radius: 5px;
+}
+@media screen and (max-width:667px)  {
+    .main-page .bottom{
+
+left: 43%;
+top: 43%;
+     }
+ }
+ .main-page .fixed {
+color: #717171;
+font-size: 2em;
+position: fixed;
+bottom: 10%;
+right:10%;
+
+ }
+
+.about_me{
+    background-color: rgb(212, 228, 212);
+    height: 100%;
+}
+
+
+
+.about_me h1 {
+    text-align: center;
+    margin: 0;
+    padding-top: 80px ;
+    color: rgb(97, 143, 97);
+}
+@media screen and (max-width:667px)  {
+    .about_me h1{
+   padding-top: 8%;
+
+     }
+ }
+ .about_me img{
+    float: left;
+    width: 30%;
+    margin-left: 10%;
+    }
+ @media screen and (max-width:667px)  {
+.about_me img{
+display: none;
+}
+ }
+
+.about_me .text_1 {
+    float: left;
+    width:60%; 
+    padding-top: 55px;
+    color: rgb(65, 64, 64);
+}
+@media screen and (max-width:667px)  {
+    .about_me .text_1{
+    text-align: center;
+    padding-top: 20%;
+   width: 100%;
+     }
+ }
+.about_me .text_1 p{
+    font-size: 1.3em;
+    padding: 20px 80px 20px 50px;
+    margin: 0;
+}
+@media screen and (max-width:667px)  {
+    .about_me .text p{
+    padding: 2%;
+   
+     }
+ }
+
+.my_work{
+height: 100%;
+ background-color: rgb(195, 199, 195);
+padding-top: 30px;
+}
+
+.my_work h1{
+    text-align: center;
+    margin: 0;
+    padding-top: 50px ;
+    color: #717171;
+}
+@media screen and (max-width:667px)  {
+    .my_work h1 {
+padding-top:  8%;
+     }
+ }
+
+.my_work p{
+    margin: 0;
+
+}
+
+
+ .classes{
+    height: 100%;
+text-align: center;
+padding-top: 40px;
+background-color:rgb(212, 228, 212);
+}
+.classes h1{
+   color:rgb(97, 143, 97); 
+}
+ .classes iframe{
+height: 80%;
+width: 70%;
+border: 1px solid #777;
+scroll-behavior:auto;
+border: 1px solid cadetblue;
+ }
+.contact{
+height: 88%;
+    background-color:rgb(184, 184, 184);
+
+
+}
+.contact h1{
+    margin: 0;
+    padding: 50px 0;
+    text-align: center;
+ 
+ color: #717171;
+  
+}
+.contact form {
+text-align: center;
+margin-top: 50px;
+
+}
+.contact form label{
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #717171;
+}
+.contact form input{
+    width: 40%;
+    margin: 15px;
+    font-size: 1.1em;
+   border:none;
+   border-radius: 5px;
+}
+.contact form input:focus{
+
+  outline-style: inset;
+}
+@media screen and (max-width:667px)  {
+    .contact form input{
+   width: 70%;
+     }
+ }
+
+
+textarea{
+    font-size: 1.3em;
+    width: 40%;
+margin: 20px;
+border-radius: 5px;
+border: none;
+
+}
+ 
+  
+@media screen and (max-width:667px)  {
+    textarea{
+   width: 70%;
+ 
+     }
+ }
+
+  
+ @media screen and (max-width:667px)  {
+    textarea:focus{
+   outline-style: inset;
+     }
+ }
+input[type="submit"]{
+    color:#fff;
+    border-radius: 5px;
+    background-color: #717171;
+}
+.footer2{
+height: 100%;
+}
+footer div{
+    text-align: center;
+    padding-top: 30px;
+}
+footer h2{
+display: inline-block;
+    margin: 0;
+    color:rgb(97, 143, 97);
+
+}
+footer{
+    background-color: rgb(212, 228, 212);
+}
+footer ul{
+display: inline;
+    text-align: center;
+}
+footer ul li {
+    display: inline;
+    padding-left: 20px;
+}
+footer ul li i {
+    display: inline-block;
+color:rgb(97, 143, 97);
+
+}
+
+
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+  text-align: center;
+  margin-top: 70px;
+
+}
+.active-2{
+    display: block;
+}
+.mySlides img{
+width: 500px;
+
+}
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 20px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: -45px;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 20px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 40px 2px;
+  background-color: rgb(161, 161, 161);
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
